@@ -1,0 +1,10 @@
+name = "aura-proxy"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+# Enable Node.js compatibility APIs for modern HTTP/fetch features
+compatibility_flags = ["nodejs_compat"]
+
+# Observability and logging configuration
+[observability]
+enabled = true
